@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background-color: aqua;
+}
+.main .heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+.main .heading .pera{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.main .heading .pera .unknownBtn {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-left: 4px;
+
+}
+.main .innermain{
+    width: inherit;
+    background-color: inherit;
+    margin-top: 80px;
+}
+.main .innermain .center{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 200vh;
+}
+.main .innermain .center .lable{
+    width: 64%;
+    /* border: 2px solid black; */
+    height: inherit;
+}
+.main .innermain .center .lable .innerlable{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 40%;
+    margin-top: 40px;
+    background-color: white;
+}
+.main .innermain .center .lable .innerlable .image{
+    width: 100%;
+    height: 300px;
+}
+.main .innermain .center .lable .innerlable .image img{
+    width: 100%;
+    height: 100%;
+}
+.main .innermain .center .lable .innerlable .textLists{
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+}
+.main .innermain .center .lable .innerlable .textLists .description{
+    width: 95%;
+    margin: auto;
+}
+.main .innermain .center .lable .innerlable .textLists .description h1{
+    font-size: 24px;
+}
+.main .innermain .center .lable .innerlable .textLists .description .peras{
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main .innermain .center .lable .innerlable .textLists .description .peras .light{
+    margin-left: 10px;
+    font-size: 20px;
+    color: lightblue;
+}
+.main .innermain .center .lable .innerlable .textLists .description .btns{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main .innermain .center .lable .innerlable .textLists .description .btns .read{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+}
+.main .innermain .center .lable .innerlable .textLists .description .btns .read:hover{
+    background-color: red;
+    transition: 2s;
+    cursor: pointer;
+}
+.main .innermain .center .lable .innerlable .textLists .description .btns .comment{
+    font-size: 18px;
+}
+.main .innermain .center .lable .innerlable .textLists .description .btns .comment button{
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 30px;
+}
+.main .innermain .center .sidelablesColumn{
+    width: 34%;
+    /* border: 2px solid black; */
+    height: inherit;
+}
+.main .innermain .center .sidelablesColumn .sidelable{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 400px;
+    margin-top: 40px;
+    background-color: white;
+}
+.main .innermain .center .sidelablesColumn .sidelable .image{
+    width: 100%;
+}
+.main .innermain .center .sidelablesColumn .sidelable .image img{
+    width: 100%;
+}
+.main .innermain .center .sidelablesColumn .sidelable .text{
+    width: 95%;
+    margin: auto;
+}
+.main .innermain .center .sidelablesColumn .sidelable .text p{
+    margin-top: 10px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .head{
+    height: 60px;
+    padding-left: 20px;
+    background-color: rgb(169, 198, 198);
+    padding-top: 10px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .textpics{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding-left: 20px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .textpics img{
+    width: 80px;
+    height: 50px;
+    margin-top: 15px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .textpics .text{
+    padding-left: 20px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .textpics .text .big{
+    font-size: 18px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .textpics:hover{
+    background-color: rgb(174, 192, 192);
+}
+.main .innermain .center .sidelablesColumn .sidelable .line{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .buttonslable{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+.main .innermain .center .sidelablesColumn .sidelable .buttonslable .black{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.main .innermain .center .sidelablesColumn .sidelable .buttonslable p{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(134, 154, 154);
+    margin: 5px;
+}
+.main .innermain .center .sidelablesColumn .sidelable1{
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    height: 200px;
+    background-color: white;
+    
+}
+.main .innermain .center .sidelablesColumn .sidelable1 .head{
+    padding-left: 20px;
+    background-color: rgb(169, 198, 198);
+    height: 60px;
+    padding-top: 10px;
+    width: 100%;
+    /* border: 1px solid rgb(128, 141, 141); */
+}
+.main .innermain .center .sidelablesColumn .sidelable1 .buttonslable{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+.main .innermain .center .sidelablesColumn .sidelable1 .buttonslable .black{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.main .innermain .center .sidelablesColumn .sidelable1 .buttonslable p{
+    width: 50px;
+    height: 20px;
+    background-color: aqua;
+    margin: 5px;
+}
